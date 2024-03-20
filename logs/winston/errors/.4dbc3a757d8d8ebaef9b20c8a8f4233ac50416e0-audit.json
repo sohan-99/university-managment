@@ -1,0 +1,50 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "F:\\level-2\\university-managment\\logs\\winston\\errors\\.4dbc3a757d8d8ebaef9b20c8a8f4233ac50416e0-audit.json",
+  "files": [
+    {
+      "date": 1710344728278,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-13-03-21.log",
+      "hash": "8e5fdcbb3793e40594eadf7be2bf796a7df206ee6fad5606d0e2fa7927e3006d"
+    },
+    {
+      "date": 1710400207852,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-14-03-13.log",
+      "hash": "599cbf6578439e716b3f8c3177b4401a9b1e24fe4f287b261e6c5207772e4c18"
+    },
+    {
+      "date": 1710405914887,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-14-03-14.log",
+      "hash": "58d302e1415b7aebcea4956eb8eadb6ed4bf91ce249a5d1ac3f0c80251af63d4"
+    },
+    {
+      "date": 1710406918879,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-14-03-15.log",
+      "hash": "f05e94c4791ef76a97be816dcc83749a6daa209545e08f1396c72608640af24d"
+    },
+    {
+      "date": 1710410447515,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-14-03-16.log",
+      "hash": "f9ae5ae297a373ea3d3748a7f7a8ac300b632a8ee40a759a18acdd2921066103"
+    },
+    {
+      "date": 1710437753590,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-14-03-23.log",
+      "hash": "fe07e366e2c5d982026374a58102d5c778063cc35054827a8bf4efbc21dc2499"
+    },
+    {
+      "date": 1710439320897,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-15-03-00.log",
+      "hash": "4673ada7ab294d20a458e836893873534fe0df61813010e76d7bf774831a52fa"
+    },
+    {
+      "date": 1710960796108,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\errors\\error-2024-21-03-00.log",
+      "hash": "ddd1f6c15f2333aa868e9574391b82409736485c84eaa4372d45a3bd0fdcb874"
+    }
+  ],
+  "hashType": "sha256"
+}

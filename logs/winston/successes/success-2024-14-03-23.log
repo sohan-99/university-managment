@@ -1,0 +1,462 @@
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:35:54.626Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:35:54.639Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:01.872Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:01.889Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:19.897Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:19.918Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:39.566Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:36:39.583Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:37:10.774Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:37:10.788Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:39:28.301Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:39:28.308Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:11.803Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:11.820Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:31.002Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:31.025Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:33.054Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:33.068Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:42.664Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:42.671Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:55.474Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:40:55.486Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:41:00.189Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:41:00.217Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:41:41.668Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:41:41.681Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:42:31.310Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:42:31.318Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:03.910Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:03.923Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:19.861Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:19.881Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:24.116Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:24.128Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:29.842Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:29.850Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:36.863Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:36.878Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:40.607Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:40.636Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:52.808Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:52.826Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:55.563Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:44:55.584Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:45:46.761Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:45:46.768Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:46:46.856Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:46:46.867Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:13.868Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:13.887Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:21.468Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:21.478Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:24.611Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:47:24.634Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:53:31.202Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:53:31.218Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:53:45.701Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:53:45.715Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:30.747Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:30.754Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:33.205Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:33.221Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:41.438Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:41.458Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:47.140Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:54:47.154Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:55:04.090Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:55:04.111Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:55:10.832Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:55:31.061Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:55:31.078Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:56:06.791Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:56:06.807Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:56:50.860Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:56:50.867Z'
+}
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:59:39.916Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-14T17:59:39.923Z'
+}

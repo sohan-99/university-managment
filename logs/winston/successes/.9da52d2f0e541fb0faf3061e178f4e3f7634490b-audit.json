@@ -1,0 +1,50 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "F:\\level-2\\university-managment\\logs\\winston\\successes\\.9da52d2f0e541fb0faf3061e178f4e3f7634490b-audit.json",
+  "files": [
+    {
+      "date": 1710344728271,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-13-03-21.log",
+      "hash": "ef7cc1cca6caeeee0e1d229ce0f67465ee780a25048d2b50e1098c84177a3722"
+    },
+    {
+      "date": 1710400207844,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-14-03-13.log",
+      "hash": "619ddaa583e161e15c5355e1d8ba08effa0cb7e1cd45fdbc2cc03e32b02f2a0d"
+    },
+    {
+      "date": 1710405914869,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-14-03-14.log",
+      "hash": "9167807d56f03cf3c24217b42b111bb16060c8cf36b76dfa6c0dc9d9b58f9722"
+    },
+    {
+      "date": 1710406918861,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-14-03-15.log",
+      "hash": "bb5db5e9478fa74aaa099223cae48a9ce9afb31f5f5e98bd4305ad06f978bd80"
+    },
+    {
+      "date": 1710410447497,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-14-03-16.log",
+      "hash": "6b18c83a2a9006b9de2f3029f150ef872139ddd9e29cb59b45e1ce0c7586602b"
+    },
+    {
+      "date": 1710437753572,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-14-03-23.log",
+      "hash": "64787b30899817745b3bd000557a40fa20d49c9f200806cb935c82dd05457e61"
+    },
+    {
+      "date": 1710439320892,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-15-03-00.log",
+      "hash": "c195111313d1eeafeaabcaa948f00114800ef882875f3b06b3d26a9504595e5b"
+    },
+    {
+      "date": 1710960796078,
+      "name": "F:\\level-2\\university-managment\\logs\\winston\\successes\\success-2024-21-03-00.log",
+      "hash": "1e33db3f2499d0a09dc92cc22e0a50c53d9ee3cf5d1426aa398e7ca47e17cb20"
+    }
+  ],
+  "hashType": "sha256"
+}

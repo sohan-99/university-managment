@@ -1,0 +1,12 @@
+{
+  message: '🛢   Database is connected successfully',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-20T18:53:17.523Z'
+}
+{
+  message: 'Application  listening on port 5173',
+  level: 'info',
+  label: 'PING',
+  timestamp: '2024-03-20T18:53:17.539Z'
+}
