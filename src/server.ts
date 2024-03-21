@@ -4,8 +4,14 @@ import config from './config';
 import { logger, errorlogger } from './shared/logger';
 import { Server } from 'http';
 
-async function boostrap() {
-  let server: Server;
+process.on('uncaughtException', error => {
+  errorlogger.error(error);
+  process.exit(1);
+});
+
+let server: Server;
+
+async function bootstrap() {
   try {
     await mongoose.connect(config.database_url as string);
     logger.info(`🛢   Database is connected successfully`);
@@ -18,19 +24,22 @@ async function boostrap() {
   }
 
   process.on('unhandledRejection', error => {
-    console.log(
-      'Unhandled rejection detected. server is closing soon-------- ',
-    );
     if (server) {
       server.close(() => {
         errorlogger.error(error);
         process.exit(1);
       });
     } else {
-      errorlogger.error(error);
       process.exit(1);
     }
   });
 }
 
-boostrap();
+bootstrap();
+
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM is received');
+  if (server) {
+    server.close();
+  }
+});

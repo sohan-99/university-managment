@@ -1,10 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
-import express, { Application, NextFunction, Request, Response } from 'express';
+import express, { Application } from 'express';
 import cors from 'cors';
 
-import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import { UserRoutes } from './app/modules/users/user.route';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
 const app: Application = express();
 app.use(cors());
 // parser
@@ -14,9 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/users/', UserRoutes);
 
 // Testing purposes npx prettier --write src/index.ts
-app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-  Promise.reject(new Error('Unhandle Promise Rejection'));
-});
+// app.get('/',(req: Request, res: Response, next: NextFunction) => {
+//  console.log(x);
+// });
 
 // global error handler
 app.use(globalErrorHandler);

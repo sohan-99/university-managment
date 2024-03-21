@@ -4,11 +4,12 @@ import { IGenericErrorMessage } from '../../interfaces/error';
 import handleValidationError from '../../errors/handleValidationError';
 import ApiError from '../../errors/ApiError';
 import { errorlogger } from '../../shared/logger';
+import { Error } from 'mongoose';
 
-const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
-    ? console.log('globalErrorHandler~~~~', error)
-    : errorlogger.error('globalErrorHandler', error);
+    ? errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error)
+    : errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
 
   let statusCode = 500;
   let message = 'Something went wrong !';
@@ -21,7 +22,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
     errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof ApiError) {
     statusCode = error?.statuscode;
-    message = error?.message;
+    message = error.message;
     errorMessages = error?.message
       ? [
           {
@@ -41,13 +42,15 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
         ]
       : [];
   }
-
   res.status(statusCode).json({
     success: false,
     message,
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
-};
 
+  next();
+};
 export default globalErrorHandler;
+//path:
+//message:
