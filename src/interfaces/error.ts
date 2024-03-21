@@ -1,4 +1,4 @@
 export type IGenericErrorMessage = {
-  path: string;
-  massage: string;
+  path: string | number;
+  message: string;
 };

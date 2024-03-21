@@ -1,4 +1,6 @@
-import express, { Application } from 'express';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
+import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
@@ -12,10 +14,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/users/', UserRoutes);
 
 // Testing purposes npx prettier --write src/index.ts
-
-// app.get('/',(_req: Request, res: Response) => {
-//   res.send('Ore Baba Error')
-// })
+app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  Promise.reject(new Error('Unhandle Promise Rejection'));
+});
 
 // global error handler
 app.use(globalErrorHandler);
