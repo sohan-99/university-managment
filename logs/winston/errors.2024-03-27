@@ -42,3 +42,8 @@ Wed Mar 27 2024 1:5:21[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
     "message": "Invalid enum value. Expected '01' | '02' | '03', received '05'"
   }
 ]
+Wed Mar 27 2024 1:30:13[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
+Wed Mar 27 2024 1:33:9[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
+Wed Mar 27 2024 1:33:36[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
+Wed Mar 27 2024 1:34:3[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
+Wed Mar 27 2024 1:34:53[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
