@@ -8,13 +8,13 @@ const createUser = catAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const { user } = req.body;
     const result = await UserService.createUser(user);
-    next();
     sendResponse(res, {
       statuscode: httpStatus.OK,
       success: true,
       message: 'user created successfully!',
       data: result,
     });
+    next();
   },
 );
 
