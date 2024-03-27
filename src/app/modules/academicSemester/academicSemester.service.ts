@@ -16,9 +16,9 @@ const createSemester = async (
 };
 
 // const getAllSemesters =(paginationOptions:IPaginationOptions)=>{
-// paginationOptions
+
 // }
 export const AcademicSemesterService = {
   createSemester,
-  //   getAllSemesters
+  //  getAllSemesters
 };
