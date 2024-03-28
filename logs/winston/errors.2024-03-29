@@ -5,3 +5,8 @@ Fri Mar 29 2024 0:50:50[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic 
 Fri Mar 29 2024 0:51:7[PING] error: 🐱‍🏍 globalErrorHandler ~~ Academic semester is already exist !
 Fri Mar 29 2024 0:52:0[PING] error: 🐱‍🏍 globalErrorHandler ~~ $regex has to be a string
 Fri Mar 29 2024 0:52:11[PING] error: 🐱‍🏍 globalErrorHandler ~~ $regex has to be a string
+Fri Mar 29 2024 2:55:2[PING] error: 🐱‍🏍 globalErrorHandler ~~ unknown operator: $and
+Fri Mar 29 2024 2:55:47[PING] error: 🐱‍🏍 globalErrorHandler ~~ unknown operator: $and
+Fri Mar 29 2024 2:58:0[PING] error: 🐱‍🏍 globalErrorHandler ~~ unknown operator: $and
+Fri Mar 29 2024 2:58:8[PING] error: 🐱‍🏍 globalErrorHandler ~~ unknown operator: $and
+Fri Mar 29 2024 2:58:18[PING] error: 🐱‍🏍 globalErrorHandler ~~ unknown operator: $and
