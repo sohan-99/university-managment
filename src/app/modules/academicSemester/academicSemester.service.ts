@@ -30,10 +30,10 @@ const getAllSemesters = async (
   filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions,
 ): Promise<IGenecicResponse<IAcademicSemester[]>> => {
-  const { searchTerm } = filters;
+  const { searchTerm, ...filtersData } = filters;
 
   const andConditions = [];
-  // Search needs $or for searching in specified fields
+
   if (searchTerm) {
     andConditions.push({
       $or: academicSemesterSearchableFields.map(field => ({
@@ -44,30 +44,15 @@ const getAllSemesters = async (
       })),
     });
   }
-  // const andConditions = [
-  //    {
-  //       $or: [
-  //          {
-  //             title: {
-  //                $regex: searchTerm,
-  //                $options: 'i',
-  //             },
-  //          },
-  //          {
-  //             code: {
-  //                $regex: searchTerm,
-  //                $options: 'i',
-  //             },
-  //          },
-  //          {
-  //             year: {
-  //                $regex: searchTerm,
-  //                $options: 'i',
-  //             },
-  //          },
-  //       ],
-  //    },
-  // ]
+
+  if (Object.keys(filtersData).length) {
+    andConditions.push({
+      $and: Object.entries(filtersData).map(([field, value]) => ({
+        [field]: value,
+      })),
+    });
+  }
+
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePagination(paginationOptions);
 
