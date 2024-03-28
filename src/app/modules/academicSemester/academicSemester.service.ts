@@ -1,7 +1,10 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
-import { IAcademicSemester } from './academicSemester.interface';
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilters,
+} from './academicSemester.interface';
 import { AcademicSemester } from './academicSemesterModel';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenecicResponse } from '../../../interfaces/common';
@@ -14,11 +17,14 @@ const createSemester = async (
   if (academicSemesterTitleCodeMapper[payload.title] !== payload.code) {
     throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid Semester code');
   }
+
   const result = await AcademicSemester.create(payload);
+
   return result;
 };
 
 const getAllSemesters = async (
+  filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions,
 ): Promise<IGenecicResponse<IAcademicSemester[]>> => {
   const { page, limit, skip, sortBy, sortOrder } =
@@ -36,6 +42,7 @@ const getAllSemesters = async (
     .limit(limit);
 
   const total = await AcademicSemester.countDocuments();
+
   return {
     meta: {
       page,
@@ -45,6 +52,7 @@ const getAllSemesters = async (
     data: result,
   };
 };
+
 export const AcademicSemesterService = {
   createSemester,
   getAllSemesters,

@@ -10,6 +10,7 @@ import { paginationFields } from '../../../constants/pagination';
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const { ...academicSemesterData } = req.body;
+
     const result =
       await AcademicSemesterService.createSemester(academicSemesterData);
 
@@ -20,16 +21,22 @@ const createSemester = catchAsync(
       meta: result.meta,
       data: result,
     });
+
     next();
   },
 );
 
 const getAllSemesters = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
+    const filters = pick(req.query, ['searchTerm']);
+
     const paginationOptions = pick(req.query, paginationFields);
-    console.log(paginationOptions);
-    const result =
-      await AcademicSemesterService.getAllSemesters(paginationOptions);
+
+    const result = await AcademicSemesterService.getAllSemesters(
+      filters,
+      paginationOptions,
+    );
+
     sendResponse<IAcademicSemester[]>(res, {
       statuscode: httpStatus.OK,
       success: true,
