@@ -1,3 +1,71 @@
 Sat Mar 30 2024 15:56:57[PING] error: 🐱‍🏍 globalErrorHandler ~~ Invalid status code: undefined
 Sat Mar 30 2024 15:57:25[PING] error: 🐱‍🏍 globalErrorHandler ~~ Invalid status code: undefined
 Sat Mar 30 2024 15:57:49[PING] error: 🐱‍🏍 globalErrorHandler ~~ Invalid status code: undefined
+Sat Mar 30 2024 16:37:17[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "expected": "'Spring' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Start month is needed"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is needed"
+  }
+]
+Sat Mar 30 2024 16:38:0[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Required"
+  }
+]
+Sat Mar 30 2024 16:38:36[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+]
+Sat Mar 30 2024 16:39:12[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+]
