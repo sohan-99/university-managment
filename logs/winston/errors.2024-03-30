@@ -69,3 +69,19 @@ Sat Mar 30 2024 16:39:12[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
     "path": []
   }
 ]
+Sat Mar 30 2024 16:46:29[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+]
+Sat Mar 30 2024 16:46:41[PING] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code should be provided or neither",
+    "path": []
+  }
+]
+Sat Mar 30 2024 16:46:46[PING] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester Code
+Sat Mar 30 2024 21:45:8[PING] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester Code
